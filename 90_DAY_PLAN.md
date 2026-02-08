@@ -1,13 +1,36 @@
-# 90-Tage-Plan: Cashflow First
+# 90-Tage-Plan: Cashflow + System Build
 
-> Fokus: Customer Acquisition für AI-Beratung + Content-Agentur
+> Fokus: Customer Acquisition + Decision OS MVP
 > Start: Februar 2026
 
 ---
 
-## Ziel
+## Dual-Track Strategie
 
-**Monatlicher Cashflow von 10-20k€** durch systematisches Outreach und standardisierte Angebote.
+```
+Track 1: CASHFLOW                Track 2: SYSTEM BUILD
+─────────────────                ──────────────────────
+Customer Acquisition              Decision OS MVP
+AI-Beratung + Content            Kalender-Agent
+Sofortiger Umsatz                Langfristiger Hebel
+
+     ↘                        ↙
+       ──────────────────────
+              SYNERGIE
+       "AI Ops Audit" verkaufen
+       = Cashflow + R&D kombiniert
+       ──────────────────────
+```
+
+---
+
+## Ziele
+
+| Track | Ziel | Metrik |
+|-------|------|--------|
+| **Cashflow** | 10-20k€/Monat | Revenue |
+| **System** | Kalender-Agent live | Eigene Nutzung |
+| **Synergie** | 2 "AI Ops Audit" Kunden | Projekte |
 
 ---
 
@@ -157,9 +180,97 @@ Jeden Freitag:
 
 ---
 
+---
+
+## Track 2: Decision OS Build
+
+### Woche 1-2: Kalender-Agent MVP
+
+| Tag | Aufgabe | Output |
+|-----|---------|--------|
+| Sa | n8n self-hosted aufsetzen | Laufende Instanz |
+| So | Gmail + Google Calendar API verbinden | Authentifizierung |
+| Mo | Claude Prompt: Meeting-Requests erkennen | Working Prompt |
+| Di | Verfügbarkeits-Check implementieren | n8n Workflow |
+| Mi | Antwort-Draft generieren | Draft in Gmail |
+| Do | Notification (Slack/Telegram) | Alert-System |
+| Fr | Testen mit echten E-Mails | Feedback sammeln |
+| Sa | Bestätigungs-Flow bauen | End-to-End funktional |
+
+### Woche 3-4: Refinement + Erste Kunden
+
+| Aufgabe | Beschreibung |
+|---------|--------------|
+| Eigene Nutzung | 2 Wochen dogfooden |
+| Bugs fixen | Aus eigener Nutzung |
+| LinkedIn Content | "Ich baue gerade..." Posts |
+| AI Ops Audit | 2-3 Leads ansprechen |
+
+### Woche 5-8: E-Mail Triage
+
+| Feature | Beschreibung |
+|---------|--------------|
+| Klassifizierung | Urgency + Category erkennen |
+| Auto-Labels | In Gmail/Inbox sortieren |
+| Routine-Antworten | Drafts für Standard-Anfragen |
+| Priority Queue | Dashboard mit wichtigsten E-Mails |
+
+### Woche 9-12: Expansion
+
+| Feature | Beschreibung |
+|---------|--------------|
+| WhatsApp | Lesend (noch keine Antworten) |
+| Multi-Kontext | Business-Trennung (WEH, Gabler, etc.) |
+| Dashboard | Simple Web UI für Übersicht |
+
+---
+
+## Synergie: AI Ops Audit
+
+**Das neue Angebot:**
+
+| Package | Was | Preis |
+|---------|-----|-------|
+| **AI Ops Audit** | 2h: Wo verlierst du Zeit? Welche Agents würden helfen? | 1.500€ |
+| **Agent Sprint** | 2 Wochen: Ersten Agent implementieren | 5.000-8.000€ |
+| **Ops Transformation** | 3 Monate: Komplettes AI Ops System | 15.000-30.000€ |
+
+**Positioning:**
+> "Ich baue gerade mein eigenes AI Operations System.
+> Ich biete dir an, das Gleiche für dich zu tun."
+
+**Ziel:** 2-3 Kunden in 90 Tagen = 10-25k€ zusätzlich
+
+---
+
+## Wochenplan-Template (Dual Track)
+
+| Zeit | Mo | Di | Mi | Do | Fr | Sa/So |
+|------|----|----|----|----|----|----|
+| **Morgen** | Outreach | Outreach | Outreach | Outreach | Review | Decision OS |
+| 8-10 | 5 DMs | 5 DMs | 5 DMs | 5 DMs | Pipeline | Build |
+| **Vormittag** | Content | Calls | Content | Calls | Content | Build |
+| 10-12 | LinkedIn | Kunden | LinkedIn | Kunden | LinkedIn | Build |
+| **Nachmittag** | Business | Business | Business | Business | Planung | - |
+| 14-17 | WEH/Gabler | WEH/Gabler | WEH/Gabler | WEH/Gabler | Nächste Woche | Frei |
+
+---
+
 ## Nächste konkrete Schritte
 
+### Cashflow (diese Woche)
 - [ ] GF-Nachricht schreiben und senden
 - [ ] 10 warme Kontakte auflisten
 - [ ] Ersten LinkedIn Post vorbereiten
 - [ ] Lead-Tracker aufsetzen
+
+### Decision OS (dieses Wochenende)
+- [ ] n8n Server aufsetzen (Docker/VPS)
+- [ ] Gmail API Credentials erstellen
+- [ ] Google Calendar API verbinden
+- [ ] Erster Test-Workflow: E-Mail → Claude → Log
+
+### Synergie (Woche 2)
+- [ ] "AI Ops Audit" Angebot formulieren
+- [ ] 3 potenzielle Kunden identifizieren
+- [ ] LinkedIn Post: "Was ich gerade baue"
